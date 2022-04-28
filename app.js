@@ -1,6 +1,6 @@
 const contador = () => {
 
-    const fechaDeseada = new Date('January 1, 2022 00:00:00').getTime();
+    const fechaDeseada = new Date('January 1, 2023 00:00:00').getTime();
     const fechaHoy = new Date().getTime();
     const diferencia = fechaDeseada - fechaHoy;
 
